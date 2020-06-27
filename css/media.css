@@ -1,0 +1,557 @@
+
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+
+
+@media (max-width: 576px) {
+
+/* navTop section*/
+
+#navbarNavTop .navbar-nav li {
+padding: 10px 30px!important ;
+}
+#navTop .container .navbar{
+padding: 0px!important ;
+}
+
+
+/* carouselTop section*/
+.carousel-caption{
+
+margin-top: 0px!important ;
+padding-top: 9px!important ;;
+top: 0!important ;
+}
+
+.c-text{
+
+padding-left: 0px!important ;
+padding-right: 0px!important ;
+}
+
+.c-title h5{
+font-size: 18px!important ;
+margin-bottom: 3px;
+}
+.c-subtitle h5{
+font-size: 10px!important ;
+margin-bottom: 3px;
+}
+
+.caption-banner{
+margin-top: 0px;
+padding: 0px;
+}
+
+.carousel-indicators{
+margin-bottom: 1px!important ;
+}
+.carousel-indicators li {
+width: 15px!important ;
+height: 15px!important ;
+}
+.carousel-indicators li.active{
+width: 13px!important ;
+height: 13px!important ;
+}
+#Topcarousel .carousel-control-prev-icon,
+#Topcarousel .carousel-control-next-icon{
+width: 20px!important ;
+height: 50px!important ;
+}
+
+.btn-order-now{
+
+width: 100px!important ;
+height: 20px!important ;
+line-height: 20px!important ;
+font-size: 10px!important ;
+margin-left: 50px!important ;
+
+}
+
+/*  #potoflioSection section*/
+
+.card-img-top1{
+padding-top: 40px!important ;
+}
+.card-title{
+padding-top: 20px!important ;
+}
+.cards-header h2{
+
+font-size: 17px!important ;
+}
+.cards-header p{
+font-size: 10px!important ;
+}
+/* Gallery  section*/
+.imgtext {
+width: 99%!important ;
+padding: 5px;
+border: 3px solid white!important ;;
+
+}
+.img-sm{
+width: 90%!important ;
+margin-left: 20px;
+}
+
+
+
+
+
+}
+
+@media only screen and (min-width: 319px)and (max-width: 480px){
+
+
+/*   --------------------------            footer  -------------------------------           */
+footer{
+padding-bottom:20px!important;   
+}
+.about-us{
+padding-left: 20px!important;  
+}
+.about-us-text p{
+font-size: 10px!important;  
+}
+.about-us-text h2{
+font-size: 15px!important;  
+}
+
+#navbarNavBottom .navbar-nav li{
+padding: 10px!important ;;
+}
+
+.navbar-brand-bottom p{
+font-size: 8px!important ;
+justify-content: center!important ;
+}
+
+}
+/* specific widths for mobile sm*/
+@media (width: 320px) {
+
+/* carouselTop section*/
+.carousel-caption{
+
+margin-top: 0px!important ;
+padding-top: 9px!important ;;
+top: 0!important ;
+}
+
+.c-text{
+padding-left: 0px!important ;
+padding-right: 0px!important ;
+}
+
+.c-title h5{
+font-size: 15px!important ;
+margin-bottom: 3px!important ;
+}
+.c-subtitle h5{
+font-size: 10px!important ;
+margin-bottom: 3px!important ;
+}
+
+.caption-banner{
+margin-top: 0px;
+padding: 0px;
+}
+
+
+
+.carousel-indicators{
+margin-bottom: 1px!important ;
+}
+.carousel-indicators li {
+width: 9px!important ;
+height: 9px!important ;
+
+}
+.carousel-indicators li.active{
+width: 5px!important ;
+height: 5px!important ;
+
+}
+
+
+.btn-order-now{
+
+width: 100px!important ;
+height: 20px!important ;
+line-height: 20px!important ;
+font-size: 10px!important ;
+margin-left: 0px!important ;
+
+}
+.carousel-next-prev{
+width: 20px!important ;
+height: 60px!important ;
+}
+
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+#potoflioSection{
+
+margin:auto!important ;
+}
+.card-img-top1{
+padding-top: 40px!important ;
+}
+.card-footer{
+height: 85px;
+background-color:#414146  ;
+}
+
+.first-card-footer{
+padding-top: 3px!important ;
+}
+.card-title{
+padding-top: 15px!important ;
+font-size: 15px!important ;
+}
+.card{
+margin: 0px!important ;
+
+}
+.cards-header h2{
+
+font-size: 17px!important ;
+}
+.cards-header p{
+font-size: 10px!important ;
+}
+/* Gallery  section*/
+
+.imgtext {
+width: 99%!important ;
+
+border: 3px solid white!important ;;
+
+}
+.img-sm{
+width: 90%!important ;
+
+}
+footer{
+padding-bottom:20px!important;   
+}
+.about-us{
+padding-left: 20px!important;  
+}
+.about-us-text p{
+font-size: 10px!important;  
+}
+.about-us-text h2{
+font-size: 15px!important;  
+}
+
+}
+@media (width: 375px) {
+/* carouselTop section*/
+
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+.cards-header h2{
+font-size: 17px!important ;
+}
+.cards-header p{
+font-size: 10px!important ;
+}
+
+}
+@media (width: 414px) {
+/* carouselTop section*/
+
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+.cards-header h2{
+font-size: 17px!important ;
+}
+.cards-header p{
+font-size: 10px!important ;
+}
+}
+
+@media (width: 411px){
+/* carouselTop section*/
+
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+.cards-header h2{
+font-size: 17px!important ;
+}
+.cards-header p{
+font-size: 10px!important ;
+}
+
+}
+@media (width: 412px){
+/* carouselTop section*/
+
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+.cards-header h2{
+font-size: 17px!important ;
+}
+.cards-header p{
+font-size: 10px!important ;
+}
+
+}
+
+@media (width: 360px){
+/* carouselTop section*/
+
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+.cards-header h2{
+font-size: 17px!important ;
+}
+.cards-header p{
+font-size: 10px!important ;
+}
+
+}
+
+/* specific widths for ipad md*/
+
+@media (width: 1024px) {
+/* carouselTop section*/
+.c-title h5{
+font-size: 29px!important ;
+
+}
+.c-subtitle h5{
+font-size: 20px!important ;
+
+}
+.carousel-caption{
+top: 15px!important ;
+}
+
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+#potoflioSection{
+margin: 50px!important ;
+}
+.text-footerr {
+font-size: 16px!important ;
+}
+.card-title{
+font-size: 16px!important ;
+}
+
+/* *-*-*-*-*-*-*-*-*--*-* 3  *-*-*-*--*- */
+.last-img-gallery{
+width: 160px!important ;
+}
+footer{
+padding-bottom:30px!important;   
+}
+.nav-bottom li a{
+font-size: 14px;
+}
+#navbarNavBottom .navbar-nav li{
+padding:5px!important;   }
+}
+
+@media (max-width: 768px) {
+
+
+/* navTop section*/
+
+#navbarNavTop .navbar-nav li {
+padding: 10px 30px!important ;
+}
+#navTop .container .navbar{
+padding: 0px!important ;
+}
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+#potoflioSection{
+margin-left: auto!important ;
+margin-right: auto!important ;
+margin-bottom: auto!important ;
+margin-top: 20px!important ;
+/* margin: auto!important ; */
+
+
+}
+
+.card-title{
+font-size: 16px!important ;
+}
+.card{
+margin: 15px!important ;
+}
+/* .cards-header{
+margin-top: 10px!important ;
+} */
+/* .cards-header h2{
+
+font-size: 25px!important ;
+}
+.cards-header p{
+font-size: 14px!important ;
+} */
+
+.client-text{
+font-size: 10px!important ;
+} 
+#gallery{
+margin:10px!important ;
+}
+
+
+}
+
+@media only screen and (min-width: 482px)and (max-width: 768px){
+
+/*   --------------------------            footer  -------------------------------           */
+footer{
+padding-bottom:20px!important;   
+}
+.about-us{
+padding-left: 20px!important;  
+}
+.c-title h5{
+font-size: 25px!important ;
+
+}
+.c-subtitle h5{
+font-size: 12px!important ;
+
+}
+.carousel-indicators{
+margin-bottom: 2px!important ;
+}
+.carousel-indicators li {
+width: 15px!important ;
+height: 15px!important ;
+}
+.carousel-indicators li.active{
+width: 13px!important ;
+height: 13px!important ;
+}
+
+}
+@media only screen and  (max-width: 700px){
+
+/* clients Carousel */
+#carouselBrands .carousel-control-prev,
+#carouselBrands .carousel-control-next
+{
+width: 20px;
+margin-bottom: auto;
+margin-top: auto;
+}
+
+.brand-sm {
+width: 285px!important ;
+margin: auto!important ;
+}
+
+.brand-sm img{
+padding-bottom: 5px!important ;
+}
+#Topcarousel .carousel-control-prev-icon,
+#Topcarousel .carousel-control-next-icon{
+width: 20px!important ;
+height: 50px!important ;
+}
+}
+@media (width: 768px) {
+/* carouselTop section*/
+.c-title h5{
+font-size: 29px!important ;
+
+}
+.c-subtitle h5{
+font-size: 20px!important ;
+
+}
+.carousel-caption{
+top: 15px!important ;
+}
+#Topcarousel .carousel-control-prev-icon,
+#Topcarousel .carousel-control-next-icon{
+width: 20px!important ;
+height: 50px!important ;
+
+}
+/* *-*-*-*-*-*-*-*-*--*-* 2  *-*-*-*--*- */
+.cards-header h2{
+font-size: 25px!important ;
+}
+.cards-header p{
+font-size: 14px!important ;
+}
+
+/* Gallery  section*/
+.ml-pad{
+
+margin-left: 70px!important ;
+margin-right: 0px;
+
+}
+.last-img-gallery{
+width: 50%!important ;
+height:  50%!important ;;
+}
+#gallery{
+height:500px!important ;
+}
+}
+@media only screen and (min-width: 770px) and (max-width:890) {
+/* carouselTop section*/
+.c-title h5{
+font-size: 29px!important ;
+
+}
+.c-subtitle h5{
+font-size: 20px!important ;
+
+}
+.carousel-indicators{
+margin-bottom: 1px!important ;
+}
+.carousel-indicators li {
+width: 15px!important ;
+height: 15px!important ;
+}
+.carousel-indicators li.active{
+width: 13px!important ;
+height: 13px!important ;
+}
+}
+@media only screen and (max-width: 1000px){
+/* clients Carousel */
+#carouselBrands .carousel-control-prev,
+#carouselBrands .carousel-control-next
+{
+width: 20px!important ;
+margin-bottom: auto;
+margin-top: auto;
+}
+.cards-header h2{
+font-size: 25px!important ;
+}
+.cards-header p{
+font-size: 14px!important ;
+}
+.text-footerr {
+font-size: 20px!important ;
+}
+footer{
+padding:20px!important;   
+}
+.about-us{
+padding-left: 20px!important;  
+}
+
+}
+
+@media (min-width: 992px) {  
+
+}
+
+

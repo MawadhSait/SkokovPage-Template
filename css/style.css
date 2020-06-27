@@ -1,0 +1,615 @@
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+html, body{
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+body{
+background-color: #f6f6f6;
+margin-bottom: 150px;
+overflow-x: hidden;
+}
+
+img{
+max-width: 100%;
+}
+@font-face {
+font-family: "century";
+src: url('../fonts/Century.ttf') format('opentype');
+}
+@font-face {
+font-family: "codebold";
+src: url('../fonts/CODE Bold.otf') format('opentype');
+}
+@font-face {
+font-family: "codelight";
+src: url('../fonts/CODE Light.otf') format('opentype');
+}
+
+
+/* navTop section*/
+#navTop{
+overflow: hidden;
+
+}
+#navbarNavTop .navbar-nav li {
+padding: 30px 20px ;
+}
+#navTop .container .navbar{
+padding: 10px;
+}
+#navbarNavTop .navbar-nav li a{
+font-family: "codebold", Verdana, Tahoma;}
+#navbarNavTop .navbar-nav li:hover {
+background-color: #ffea00;
+}
+
+
+/* carouselTop section*/
+#carouslTop{
+overflow: hidden;
+}
+#Topcarousel{
+overflow: hidden;
+}
+#navTop{
+background-color: #f6f6f6;
+overflow: hidden;
+}
+
+.c-title h5{
+font-size: 50px;
+background-color: #ffea00;;
+font-family: "century", Verdana, Tahoma;
+color: black;
+text-transform: uppercase;
+}
+.c-subtitle h5{
+font-size: 20px;
+background-color: #414146 ;
+
+color: white;
+}
+.carousel-caption{
+top: 20px;
+}
+
+/* new */
+
+#Topcarousel .carousel-control-prev-icon,
+#Topcarousel .carousel-control-next-icon{
+background-color: black;
+opacity: 1;
+width: 50px;
+height: 100px;
+}
+
+
+
+.carousel-indicators li {
+background-color:  #414146 ;
+width: 25px;
+height: 25px;
+border-radius: 0px;
+border: 1px solid #414146  ;
+}
+.carousel-indicators li.active{
+width: 22px;
+height: 22px;
+border: 3px solid #414146  ;
+background-color:  #ffea00; 
+}
+
+
+
+
+.btn-order-now{
+display: block;
+width: 190px;
+height: 40px;
+line-height: 40px;
+font-size: 18px;
+font-family: "codebold", Verdana, Tahoma;
+background-color: black;
+text-decoration: none;
+color: #fff;
+box-shadow: 0px 2px #ffea00; 
+letter-spacing: 2px;
+text-align: center;
+position: relative;
+transition: all .35s;
+overflow: hidden;
+}
+
+.btn-order-now span{
+position: relative;
+z-index: 2;
+}
+
+.btn-order-now:after{
+position: absolute;
+content: "";
+bottom: 0;
+left: 0;
+width: 100%;
+border-top-right-radius: 30%;
+border-top-left-radius: 30%;
+height: 0%;
+background: #ffea00; 
+transition: all .35s;
+
+}
+
+.btn-order-now:hover{
+color: #000;
+}
+
+.btn-order-now:hover:after{
+height: 140%;
+
+}
+
+
+
+
+/*  #potoflioSection section*/
+
+#potoflioSection{
+margin: 80px 100px;
+
+overflow: hidden;
+}
+.card-footer{
+height: 85px;
+background-color:#414146  ;
+}
+
+.cards-header h2{
+font-size: 35px;
+text-transform: uppercase;
+font-family: "codebold", Verdana, Tahoma;
+color: #414146 
+}
+.cards-header p{
+font-size: 24px;
+font-family: "codebold", Verdana, Tahoma;
+color: #414146 
+}
+.speech-bubble {
+position: relative;
+background: #424147;
+border-radius: .4em;
+}
+
+.speech-bubble:after {
+content: '';
+position: absolute;
+top: 0;
+left: 90%;
+width: 0;
+height: 0;
+border: 8px solid transparent;
+border-bottom-color: #424147;
+border-top: 0;
+margin-left: -8px;
+margin-top: -8px;
+}
+/* .card-fa .card-title{
+padding-top: 15px;
+} */
+.body-card i{
+font-size: 100px;
+}
+.body-card{
+height: 200px;
+
+}
+.card-img-top{
+height: 100%;
+}
+.text-footer{
+color: white;
+font-size: 13px;
+font-family: "century", Verdana, Tahoma;
+}
+.text-footerr {
+color: white;
+font-size: 20px;
+margin-bottom: 0px;
+font-family: "century", Verdana, Tahoma;
+
+}
+.first-card-footer{
+padding-top: 0px;
+}
+.card-title{
+font-size: 20px;
+font-family: "codebold", Verdana, Tahoma;
+text-transform: uppercase;
+}
+.text-end{
+color: #ffea00; 
+font-size: 13px;
+font-family: "century", Verdana, Tahoma;
+}
+.text-end span{
+color: white;
+font-size: 13px;
+}
+
+.card-fa{
+background-color:#ffea00; 
+}
+.card{
+margin: 10px;
+border: none;
+}
+
+.card {
+/* Add shadows to create the "card" effect */
+box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+}
+
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-       SPREATOR */
+
+
+.client-text{
+color: black;
+font-size: 16px;
+font-family: "century", Verdana, Tahoma;
+}
+.separator {
+display: flex;
+align-items: center;
+text-align: center;
+padding-top: 15px;
+}
+.separator::before, .separator::after {
+content: '';
+flex: 1;
+border-bottom: 1px solid #cacaca;
+width: 50px;
+}
+.separator::before {
+margin-right: 25px;
+}
+.separator::after {
+margin-left: 25px;
+}
+.separator .separator-text p{
+padding-top: 3px;
+font-family: "century", Verdana, Tahoma;
+font-size: 18px;
+}
+.separator-text{
+align-items: center;
+text-align: center;
+color: #ffea00;
+background-color:#424147;
+width: 160px;
+height: 30px;
+}
+
+
+
+/* Gallery */
+.imgtext {
+
+border: 1px solid white;
+
+}
+
+.last-img-gallery{
+width: 205px;
+}
+
+
+.imgtext:hover { cursor: pointer;
+
+}
+#gallery{
+overflow: hidden;
+margin: 50px 20px;
+}
+
+
+/* clients Carousel */
+#clients{
+overflow: hidden;
+margin-bottom: 100px;
+}
+#carouselBrands .carousel-control-prev,
+#carouselBrands .carousel-control-next
+{
+background-color: black;
+
+width: 48px;
+height: 60px;
+}
+
+#carouselBrands .carousel-control-prev:hover,
+#carouselBrands .carousel-control-next:hover
+{
+opacity: 1;
+}
+
+/*   --------------------------            footer  -------------------------------           */
+footer{
+background-color: #414146;
+padding: 30px 0px;
+overflow: hidden;
+/* padding-bottom: 3px; */
+}
+.about-us{
+padding-left: 0px;
+
+}
+.about-us-text p{
+font-family: "century", Verdana, Tahoma;
+color: white;
+font-size: 13px;
+}
+.about-us-text h2{
+color: white;
+font-family: "century", Verdana, Tahoma;
+font-size: 18px;
+}
+/* .learnmore-bottom{
+background-color: #000;
+border-radius: 0px;
+width: 122px;
+height: 40px;
+box-shadow: 0px 3px #ffea00;
+font-size: 15px;
+color: white;
+} */
+
+
+.btn-order-now{
+display: block;
+width: 190px;
+height: 40px;
+line-height: 40px;
+font-size: 18px;
+background-color: black;
+text-decoration: none;
+color: #fff;
+box-shadow: 0px 2px #ffea00; 
+letter-spacing: 2px;
+text-align: center;
+position: relative;
+transition: all .35s;
+overflow: hidden;
+}
+
+.btn-order-now span{
+position: relative;
+z-index: 2;
+}
+
+.btn-order-now:after{
+position: absolute;
+content: "";
+bottom: 0;
+left: 0;
+width: 100%;
+border-top-right-radius: 30%;
+border-top-left-radius: 30%;
+height: 0%;
+background: #ffea00; 
+transition: all .35s;
+
+}
+
+.btn-order-now:hover{
+color: #000;
+}
+
+.btn-order-now:hover:after{
+height: 140%;
+
+}
+.imgs-stram img{
+width: 100px;
+height: 60px;
+padding: 3px;
+}
+.imgs-stram{
+padding-left: 0px;
+}
+.imgs-stram img:hover {
+transform: scale(1.1);
+}
+.photo-stream{
+color: white;
+font-size: 18px;
+font-family: "century", Verdana, Tahoma;
+}
+
+
+/* ****************************************************************  */
+.fa-li{
+color: white;
+font-size: 25px;
+}
+.tweet{
+color: white;
+font-size: 13px;
+margin-bottom:0px;
+font-family: "century", Verdana, Tahoma;
+}
+.tweet span{
+color: #ffea00;
+}
+.arduino{
+color: #ffea00!important;
+}
+.tweet a{
+color: white;
+}
+.color-tweet:hover .fab{
+color: #00acee;
+}
+.tweet a:hover{
+color: white;
+border:1px solid #ffea00;;
+}
+.footer-days{
+
+color: #ffea00;
+font-size: 8px;
+}
+.tweet-title, 
+.contact-title{
+color: white;
+font-size: 18px;
+font-family: "century", Verdana, Tahoma;
+}
+
+.social-connect h4{
+display: inline-block;
+font-size: 18px;
+color: white;
+font-family: "century", Verdana, Tahoma;
+}
+.social-icon{
+padding-left: 5px;
+padding-top: 5px;
+font-size: 20px;
+transition: 0.2s linear;
+color: white;
+
+}
+.social-icons{
+display: inline-block;
+width: 30px;
+height: 30px;
+color: white;
+border-radius: 0px;
+background-color: black; 
+}
+.social-icons:hover {
+transform: scale(1.3);
+background-color:rgba(255,255,255,0.3)
+}
+.fa-youtube{
+font-size: 18px;
+}
+
+.contact-icon{
+width: 30px;
+height: 30px;
+background-color: #000;
+font-size: 20px;
+text-align: center;
+color: white;
+}
+
+.contact-hover:hover .contact-icon{
+transform: scale(1.3);
+background-color:rgba(255,255,255,0.3)
+}
+
+
+.follow-us{
+color: white;
+font-size: 18px;
+font-family: "century", Verdana, Tahoma;
+}
+.contact-info, 
+.follow-us p{
+color: white;
+font-size: 13px;
+font-family: "century", Verdana, Tahoma;
+}
+.contact-info span{
+color: #ffea00;
+}
+input {
+background-color: transparent;
+color: #eeeeee;
+outline: none;
+outline-style: none;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: solid 1px #ffea00;
+width: 230px;
+/* padding: 3px 10px; */
+}
+.email a{
+display:inline-block;
+
+}
+.email-icon{
+width: 30px;
+height: 30px;
+padding-top: 5px;
+background-color: #000;
+font-size: 20px;
+text-align: center;
+color: white;
+display:inline-block;
+}
+.mailing:hover .email-icon{
+transform: scale(1.1);
+background-color:rgba(255,255,255,0.3)
+}
+
+hr{
+flex: 1;
+border-bottom: 1px solid #bcbcbc;
+
+margin-bottom: 20px;
+opacity: 0.2;
+width: 200px;
+
+}
+
+#bottomNav{
+background-color: black;
+overflow: hidden;
+}
+#bottomNav .container .navbar{
+background-color: black;
+overflow: hidden;
+}
+#navbarNavBottom .navbar-nav li{
+padding: 10px 10px ;
+overflow: hidden;
+
+}
+
+
+.navbar-brand-bottom p{
+font-size: 14px;
+align-self: center;
+padding-top: 20px;
+color: white;
+font-family: "century", Verdana, Tahoma;
+}
+/* .navbar-brand-bottom{
+margin-left: 50px;
+} */
+
+#navbarNavBottom .navbar-nav li:hover {
+background-color:grey;
+opacity: 0.5;
+}
+.nav-bottom li a{
+font-size: 16px;
+font-family: "codebold", Verdana, Tahoma;
+overflow: hidden;
+color: white;
+}
