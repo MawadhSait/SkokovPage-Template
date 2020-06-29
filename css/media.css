@@ -408,7 +408,7 @@ margin:10px!important ;
 
 /*   --------------------------            footer  -------------------------------           */
 footer{
-padding-bottom:20px!important;   
+padding-bottom:40px!important;   
 }
 .about-us{
 padding-left: 20px!important;  
@@ -457,6 +457,9 @@ padding-bottom: 5px!important ;
 #Topcarousel .carousel-control-next-icon{
 width: 20px!important ;
 height: 50px!important ;
+}
+ footer{
+padding-bottom:20px!important;   
 }
 }
 @media (width: 768px) {
